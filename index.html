@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta charset="utf-8" />
+     <title> Busca Comida </title>
+     <link rel="stylesheet" href="Design.css">
+     <link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.min.css">
+  </head>
+
+  <body id="Background">
+      <div id= "Logo">
+           <img src= "Images/mnet_movies.png" width= 1000></img>
+       </div>
+      <div id="Navegacion">
+ <header>
+     <nav>
+        <form id="search-form">
+        <div class="search">
+        <input type="text" name="search"class="round" value="   Ingresa algo que se te antoje. No olvides revisar las ofertas de abajo"/>
+        <input type="submit" class="corner" value="" />
+ 
+        </form>
+     </nav>
+      </div>
+ 
+<script language="JavaScript1.1";>
+                         var slideimages=new Array()
+                         var slidelinks=new Array()
+                         function slideshowimages()
+                             {
+                               for (i=0;i<slideshowimages.arguments.length;i++)
+                                 {
+                                  slideimages[i]=new Image()
+                                  slideimages[i].src=slideshowimages.arguments[i]
+                                  }
+                             }
+
+                          function slideshowlinks()
+                              {
+                                for (i=0;i<slideshowlinks.arguments.length;i++)
+                                     slidelinks[i]=slideshowlinks.arguments[i]
+                              }
+
+                          function gotoshow(){
+                             if (!window.winslide||winslide.closed)
+                                 winslide=window.open(slidelinks[whichlink])
+                             else
+                                 winslide.location=slidelinks[whichlink]
+                                 winslide.focus()
+                                             }
+                      </script>
+          </header>
+       </div>
+       <section id="MainSection">
+            <a href="javascript:gotoshow()" ><img id="slideshow" src="3.jpg" name="slide" border=0 width=800 height=375></a>
+            <script>
+     
+                  slideshowimages("Images/training-day-dvd-cover-18.jpg", "Images/l_111864_0120102_7321bb0a.jpg", "Images/it-movie-cover.png", "Images/MV5BMTgwODg3NDU5NF5BMl5BanBnXkFtZTYwODQ5MDE5._V1_SY317_CR9,0,214,317_AL_.jpg")
+                   slideshowlinks("Images/training-day-dvd-cover-18.jpg","Images/l_111864_0120102_7321bb0a.jpg", "Images/it-movie-cover.png","Images/MV5BMTgwODg3NDU5NF5BMl5BanBnXkFtZTYwODQ5MDE5._V1_SY317_CR9,0,214,317_AL_.jpg")
+
+                    var slideshowspeed=4000
+
+                    var whichlink=0
+                    var whichimage=0
+                    function slideit(){
+                    if (!document.images)
+                    return
+                    document.images.slide.src=slideimages[whichimage].src
+                    whichlink=whichimage
+                    if (whichimage<slideimages.length-1)
+                    whichimage++
+                    else
+                    whichimage=0
+                    setTimeout("slideit()",slideshowspeed)
+                     }
+                    slideit()
+             </script>
+
+
+<div id= "ofertaPadre">
+<h1><u><b>Ofertas Recientes</b></u></h1>
+<div class= "oferta1">
+<img src= "Images/training-day-dvd-cover-18.jpg" >
+</div>
+<div class = "oferta2">
+<img src= "Images/MV5BMTgwODg3NDU5NF5BMl5BanBnXkFtZTYwODQ5MDE5._V1_SY317_CR9,0,214,317_AL_.jpg" >  
+</div>
+<div class = "oferta3">
+         <img src= "Images/l_111864_0120102_7321bb0a.jpg" > 
+</div>
+<div class = "oferta4">
+        <img src= "Images/09-50604-burger-fb_ad-940x788.jpg" >   
+</div>
+<div class = "oferta5">
+         <img src= "Images/double_decker.jpg" >    
+</div>
+<div class = "oferta6">
+         <img src= "Images/dt.common.streams.StreamServer.jpg" >    
+</div>
+</div>
+
+
+
+
+
+           
+           
+           
+   
+
+
+
+
+
+
+
+
+ <!--<p id="Main_p"> 	Bienvenidos a el buscador de restaurantes mas chingon de la historia! Aqui podra encontrar las mejores ofertas disponibles en su area incluyendo un review de su restaurante favorito! Haga <a href="file:///C:/Users/ozzIE/Desktop/Compara%20Restarurntes/ofertas.html">click aqui <a> para ver las ofertas!</p>  -->
+
+
+
+       </section>
+       <section id="Youtube">
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/KY44zvhWhp4" frameborder="0" allowfullscreen></iframe>
+       </section>
+       <footer>
+
+            <div id="LeftFooter">
+                <ul> 
+                  <lh>Contactos</lh>
+                  <li> <img src= "Images/like-share.jpg"height ="30px"width="100px" alt="Like" title="Click to like page;"></img> </li>
+                  <li> <img src= "Images/twitter.jpg"height ="30px"width="100px" alt="Twitter" title="Click to like page;"></img> </li>
+                  <li> <img src= "Images/descargar-whatsapp.jpeg"height ="30px"width="100px" alt="Whats" title="WhatsUp Message;"></img> </li> 
+                 </ul>
+            </div>
+            <div id="MiddleFooter">
+                   <img src= "Images/contactus.jpg" height="160px" width= "230px"  alt="Middle" title="ContactUs";></img> 
+
+            </div>
+            <div id="MiddleFooter2" >
+                   <p id="footer_p">
+                       Direccion: 4599 C. Pancho Villa col. Los Heroes 31229
+                       <br>
+                       Telefono de asistencia: 999-34-98
+                       <br>
+                       <br>
+                       <p style="text-align: center; color: black; font-size:10px "> Copyright 2016 BuscaComida All rights reserved</p>
+                   </p>      
+            </div>
+            <div id="RightFooter">
+                   <img src= "Images/pago-paypal.png" height ="144px"width="181px" alt="Whats" title="Random;"></img>  
+
+            </div>  
+              
+
+       </footer>
+  </body>
+  </html>
