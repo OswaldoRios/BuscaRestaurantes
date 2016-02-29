@@ -1,2 +1,2 @@
 # BuscaRestaurantes
-Buscador de restaurantes por clasificacion
+Buscador de restaurantes es una herramienta que permitirá al usuario buscar ofertas recientes. Se enfocara en clasificar restaurantes por tipo de comida y mostrar el menú de cada restaurante al igual que permitirá clasificar por popularidad. Se incluirá la dirección, teléfono, nombre del restaurante y su popularidad en forma de estrellas. Cada usuario que califique el restaurant colaborara en la evaluación final en promedio. Se implementara en página web al igual que aplicación para celular. También se tomaran en cuenta los comentarios de los usuarios para mejorar la aplicación. 
